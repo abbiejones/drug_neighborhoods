@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<sbgn>
+  <map id="olaparib.sbgnml" language="unknown">
+    <!--<extension>-->
+      <!--<renderInformation-->
+         <!--id="renderInformation" programName="sbgnviz" programVersion="4.2.0" backgroundColor="#000000">-->
+        <!--<listOfColorDefinitions>-->
+          <!--<colorDefinition id="color_1" value="#ffffffff"/>-->
+          <!--<colorDefinition id="color_2" value="#555555"/>-->
+          <!--<colorDefinition id="color_3" value="#ffffff7f"/>-->
+          <!--<colorDefinition id="color_4" value="#ffffff0"/>-->
+        <!--</listOfColorDefinitions>-->
+        <!--<listOfBackgroundImages/>-->
+        <!--<listOfStyles>-->
+          <!--<style id="nodeffffff15551.2511normalnormalHelvetica" idList="nwtN_8d78a66a-5ce4-4160-9a98-1489735d76af nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b 436812b4-0598-1d9c-0d8c-759edb2d66fb nwtN_b791a7b4-7b9c-4c55-b6f3-0818a56cf4d9 nwtN_205cc34f-30b5-40ee-9d13-539ac402a9e7 nwtN_6d7d1d52-2ad6-46fc-82e2-e089744d89cc nwtN_9011890a-b4d4-40a2-8b44-9a41e8950c96 nwtN_163ad48b-7f64-450e-9c75-bea27bd40f02 nwtN_52a15453-2de7-4a59-9287-597f75093461 nwtN_8f28181c-1dea-4f3c-a60f-c23102e43d7c nwtN_810bdc35-5c5e-4b92-bd2e-d75066128c5a nwtN_c994a8d2-6e16-4161-8b0b-dd0abe3833ee nwtN_4846383f-1a8f-4f4c-967e-d9b78b3f502b nwtN_ef2bc782-7096-4844-a6be-d676b5386691 nwtN_e559df7b-428c-4f4d-9ba4-3be8903ffdba nwtN_d61b8242-b7a4-4cd4-842e-9dce2e1da233 nwtN_b50454c2-d802-43e9-8039-bad38e811b9e 4c9d72ff-a83e-7070-3d8d-751d4b2b9880 e02a9166-d26f-3f05-8a05-fd3120fd397c b9c9c1ac-4d55-e6ab-c021-5b2e95db5442 nwtN_d731f60a-70e2-4c0f-95bb-a7e8d53e1e24 nwtN_38927b45-7a2d-4ed5-91c1-09a46c8e22b6 nwtN_31b05a41-1aec-47c1-9b55-805df86e43d4 nwtN_1a417186-b8f7-4190-bced-a80005d1f221 nwtN_225d0f0a-0874-4762-ae8f-67d9465b6969 nwtN_1a9e79d4-6d31-4210-a182-7c138b1f462e nwtN_02e76396-529e-4e48-973f-c53921ec42da nwtN_2e69c248-24aa-401a-9ac4-0b9cf85d689a nwtN_1c05968b-200d-4fbd-8963-1016cfbd73c9 nwtN_2b6403ec-a3b0-409e-8605-ada572d926e7 nwtN_f9435521-ee1b-4a08-a6fd-7afef66aed2b nwtN_b939e371-b03f-4e98-ab57-d8d497d61af2 nwtN_fe7be4bb-fdae-4b69-8808-4fc5d73e6c9a nwtN_ac9a0d54-7177-42fc-af54-e4607aca1057 nwtN_e5d11467-aa83-42f1-9292-7d43c30bcd40 nwtN_d1729248-5375-4e36-b378-ff5697537c8d nwtN_bfc420cf-847f-4707-acef-85ed1b9d3dcb nwtN_747ca7fc-276e-480a-ad05-8d7e815b5d2a nwtN_a3525c9e-b635-4f12-ac31-ad4a4fdd3ed9 nwtN_9c7d9fa9-f4c6-4fae-b981-a8eef280dc7d nwtN_2b13be35-0052-4030-8be2-69544bd101fc nwtN_2bbb97a7-4251-430c-9162-133fe184b9c6 nwtN_03d410b8-98a5-4c47-96d7-1b68e323bcc3 nwtN_f47214db-0f4d-4d3b-9295-c0b58b635657 nwtN_d2520212-0ffa-4f74-a749-20e14c69ba93 nwtN_fd5fdd57-a6de-449c-bc69-d528fc541cfe nwtN_b8fae864-dcf9-4988-9716-51f1c6316149 nwtN_22955ae0-c5c4-4c2e-8d26-363b8fe0991e nwtN_4ad5c1be-6086-4c5c-bbe7-73749512ad83 nwtN_b431410c-b51a-47cb-b94c-2065d1d1a995 nwtN_3cf05654-bd74-4ee9-a090-4030c9a50570">-->
+            <!--<g fontSize="11" fontFamily="Helvetica" fontWeight="normal" fontStyle="normal" stroke="color_2" strokeWidth="1.25" fill="color_1"/>-->
+          <!--</style>-->
+          <!--<style id="nodeffffff0.55551.2511normalnormalHelvetica" idList="nwtN_bc782503-6a57-4742-81b7-a590c9c835eb nwtN_c5116b6c-88a8-48ad-b794-d7e78cd70e55">-->
+            <!--<g fontSize="11" fontFamily="Helvetica" fontWeight="normal" fontStyle="normal" stroke="color_2" strokeWidth="1.25" fill="color_3"/>-->
+          <!--</style>-->
+          <!--<style id="nodeffffff05551.2511normalnormalHelvetica" idList="nwtN_ea1f6329-c665-47ae-ae06-be0507b1d6a3 nwtN_cb40edc4-eb2c-41e2-ab7e-b0af4f493d24 nwtN_74f41128-d1f7-4d9d-9013-d6d483e805b7 nwtN_25865c32-b3ca-4740-b77a-bb1e603db7bb nwtN_abc8ab33-ddf2-4259-a6ee-0c0a8fac4bd4 nwtN_fb325222-6df4-49b3-a5da-8a558a786ff6 nwtN_3da64a22-1e78-4abd-bb35-7b6da011776c nwtN_28502285-e1fa-48ac-8072-f09a2e88db07 nwtN_3dc97fcf-819c-4704-a06c-e7c9bda925aa nwtN_2992003a-db15-4e2c-87aa-3accb226479c nwtN_fd1c3b59-4ec5-4920-b5af-4cbaba673e77">-->
+            <!--<g fontSize="11" fontFamily="Helvetica" fontWeight="normal" fontStyle="normal" stroke="color_2" strokeWidth="1.25" fill="color_4"/>-->
+          <!--</style>-->
+          <!--<style id="edge5551.25" idList="nwtE_3475a55d-67d1-4cee-8679-6cb982db4bf9 nwtE_646c44d7-df3b-4f21-9566-9c566966615d nwtE_35b0258a-ec24-41e1-9511-6d860c69ab57 nwtE_bc3b7821-86cc-4d22-b383-a51fdae66173 nwtE_20d78419-129b-4416-87a8-38d657da7d09 nwtE_5542483d-9855-4dbc-9abb-47c638d78ceb nwtE_22ed2cd2-a4bb-42b1-9212-04e702d1b291 nwtE_a2825ae1-69b5-4bf5-9e98-9511f1167cb2 nwtE_e2ee1c12-8c18-4f72-9715-d770d659c814 nwtE_f44c9a5e-1b04-4552-89e1-8b351640cadd nwtE_c5d85106-d106-4d70-bb1a-d65f9500be03 nwtE_ef07b7d2-5c01-44d3-868d-8e868cfd3e6a nwtE_de0d3ec9-2cec-4609-8fe6-3f9bb9e864ed">-->
+            <!--<g stroke="color_2" strokeWidth="1.25"/>-->
+          <!--</style>-->
+        <!--</listOfStyles>-->
+      <!--</renderInformation>-->
+      <!--<mapProperties>-->
+        <!--<compoundPadding>10</compoundPadding>-->
+        <!--<extraCompartmentPadding>14</extraCompartmentPadding>-->
+        <!--<extraComplexPadding>10</extraComplexPadding>-->
+        <!--<arrowScale>1.25</arrowScale>-->
+        <!--<showComplexName>true</showComplexName>-->
+        <!--<dynamicLabelSize>regular</dynamicLabelSize>-->
+        <!--<inferNestingOnLoad>false</inferNestingOnLoad>-->
+        <!--<fitLabelsToNodes>false</fitLabelsToNodes>-->
+        <!--<fitLabelsToInfoboxes>false</fitLabelsToInfoboxes>-->
+        <!--<recalculateLayoutOnComplexityManagement>true</recalculateLayoutOnComplexityManagement>-->
+        <!--<rearrangeOnComplexityManagement>true</rearrangeOnComplexityManagement>-->
+        <!--<animateOnDrawingChanges>true</animateOnDrawingChanges>-->
+        <!--<adjustNodeLabelFontSizeAutomatically>false</adjustNodeLabelFontSizeAutomatically>-->
+        <!--<enablePorts>true</enablePorts>-->
+        <!--<allowCompoundNodeResize>false</allowCompoundNodeResize>-->
+        <!--<mapColorScheme>black_white</mapColorScheme>-->
+        <!--<defaultInfoboxHeight>12</defaultInfoboxHeight>-->
+        <!--<defaultInfoboxWidth>8</defaultInfoboxWidth>-->
+        <!--<mapName>Pathway #sbgn-network-container-0</mapName>-->
+        <!--<mapDescription/>-->
+      <!--</mapProperties>-->
+    <!--</extension>-->
+    <glyph id="nwtN_8d78a66a-5ce4-4160-9a98-1489735d76af" class="drug">
+      <label text="Olaparib"/>
+      <bbox x="347.235399342069" y="-518.4939627399353" w="86.49488911141579" h="46.730802432725156"/>
+    </glyph>
+    <glyph id="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b" class="target">
+      <label text="PARP1"/>
+      <bbox x="357.4654126718293" y="-318.2082976750403" w="70" h="35"/>
+      <glyph id="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b_0" class="unit of information">
+        <label text="PAR-bound"/>
+        <bbox x="388.7654126718293" y="-324.2082976750403" w="48" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="436812b4-0598-1d9c-0d8c-759edb2d66fb" class="target">
+      <label text="PARP2"/>
+      <bbox x="165.7989903887139" y="-181.00006161113296" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_b791a7b4-7b9c-4c55-b6f3-0818a56cf4d9" class="neighbor">
+      <label text="PNKP"/>
+      <bbox x="27.151269712328826" y="-253.3885290524229" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_205cc34f-30b5-40ee-9d13-539ac402a9e7" class="neighbor">
+      <label text="XRCC1"/>
+      <bbox x="167.44275716219906" y="-218.219447035569" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_6d7d1d52-2ad6-46fc-82e2-e089744d89cc" class="neighbor">
+      <label text="LIG3"/>
+      <bbox x="25.234382803404785" y="-215.53300008532275" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_9011890a-b4d4-40a2-8b44-9a41e8950c96" class="neighbor">
+      <label text="ATM"/>
+      <bbox x="435.7577655354543" y="-91.8564074500383" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_163ad48b-7f64-450e-9c75-bea27bd40f02" class="neighbor">
+      <label text="BRCA1"/>
+      <bbox x="460.06554845135474" y="15.602255132261305" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_52a15453-2de7-4a59-9287-597f75093461" class="neighbor">
+      <label text="CHD1L"/>
+      <bbox x="614.9311705301512" y="-407.55634688272465" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_bc782503-6a57-4742-81b7-a590c9c835eb" class="complex">
+      <bbox x="626.2612565085495" y="-115.9925884977271" w="146.14298857968154" h="91.9934892646885"/>
+      <glyph id="nwtN_bc782503-6a57-4742-81b7-a590c9c835eb_0" class="unit of information">
+        <label text="MRN"/>
+        <bbox x="712.1770588569361" y="-121.9925884977271" w="24" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_c5116b6c-88a8-48ad-b794-d7e78cd70e55" class="complex">
+      <bbox x="529.8523144690928" y="-603.5936492919016" w="148.1112855185694" h="87.46477478325795"/>
+      <glyph id="nwtN_c5116b6c-88a8-48ad-b794-d7e78cd70e55_0" class="unit of information">
+        <label text="Replication Fork"/>
+        <bbox x="622.8602300287625" y="-522.1288745086435" w="48" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_8f28181c-1dea-4f3c-a60f-c23102e43d7c" class="neighbor">
+      <label text="RAD50"/>
+      <bbox x="630.6742618498785" y="-102.4548559459881" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_ea1f6329-c665-47ae-ae06-be0507b1d6a3" class="complex">
+      <bbox x="585.5373285296477" y="-127.53945193919648" w="227.14658799025304" h="238.0740894519644"/>
+      <glyph id="nwtN_ea1f6329-c665-47ae-ae06-be0507b1d6a3_0" class="unit of information">
+        <label text="NHEJ"/>
+        <bbox x="730.8114060027273" y="-133.53945193919648" w="32" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_810bdc35-5c5e-4b92-bd2e-d75066128c5a" class="neighbor">
+      <label text="NR4A"/>
+      <bbox x="685.5809397864921" y="-407.33282311496293" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_c994a8d2-6e16-4161-8b0b-dd0abe3833ee" class="neighbor">
+      <label text="FEN1"/>
+      <bbox x="167.50980225235065" y="-253.32434981640355" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_4846383f-1a8f-4f4c-967e-d9b78b3f502b" class="neighbor">
+      <label text="CHD4"/>
+      <bbox x="760.9154115330234" y="-389.94675531697015" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_ef2bc782-7096-4844-a6be-d676b5386691" class="neighbor">
+      <label text="XRCC5"/>
+      <bbox x="593.4300034634032" y="-4.084935269755034" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_e559df7b-428c-4f4d-9ba4-3be8903ffdba" class="neighbor">
+      <label text="XRCC6"/>
+      <bbox x="592.3249116406481" y="31.968101087298045" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_d61b8242-b7a4-4cd4-842e-9dce2e1da233" class="neighbor">
+      <label text="APTX"/>
+      <bbox x="96.75000051397095" y="-214.13122490053527" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_b50454c2-d802-43e9-8039-bad38e811b9e" class="unspecified entity">
+      <label text="NAM"/>
+      <bbox x="499.2044783460267" y="-310.4813565653454" w="26.294261997171645" h="25.798791999404546"/>
+    </glyph>
+    <glyph id="4c9d72ff-a83e-7070-3d8d-751d4b2b9880" class="unspecified entity">
+      <label text="NAD+"/>
+      <bbox x="446.7825179107783" y="-311.35537035029415" w="26.294261997171645" h="25.798791999404546"/>
+    </glyph>
+    <glyph id="e02a9166-d26f-3f05-8a05-fd3120fd397c" class="unspecified entity">
+      <label text="ATP"/>
+      <bbox x="511.8293745233566" y="-279.0508966612563" w="26.294261997171645" h="25.798791999404546"/>
+    </glyph>
+    <glyph id="b9c9c1ac-4d55-e6ab-c021-5b2e95db5442" class="unspecified entity">
+      <label text="AMP"/>
+      <bbox x="511.8907993068061" y="-346.647941030941" w="26.294261997171645" h="25.798791999404546"/>
+    </glyph>
+    <glyph id="nwtN_d731f60a-70e2-4c0f-95bb-a7e8d53e1e24" class="neighbor">
+      <label text="LIG1"/>
+      <bbox x="94.49922951556124" y="-178.22867162853834" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_38927b45-7a2d-4ed5-91c1-09a46c8e22b6" class="neighbor">
+      <label text="PCNA"/>
+      <bbox x="22.448772071834476" y="-180.85964175610417" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_31b05a41-1aec-47c1-9b55-805df86e43d4" class="neighbor">
+      <label text="POLX"/>
+      <bbox x="96.76175285994549" y="-251.56796521878474" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_cb40edc4-eb2c-41e2-ab7e-b0af4f493d24" class="complex">
+      <bbox x="17.790783825674765" y="-258.30263493093963" w="223.180848614252" h="119.91285629148736"/>
+      <glyph id="nwtN_cb40edc4-eb2c-41e2-ab7e-b0af4f493d24_0" class="unit of information">
+        <label text="SSBR"/>
+        <bbox x="160.2491863417937" y="-264.30263493093963" w="32" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_1a417186-b8f7-4190-bced-a80005d1f221" class="neighbor">
+      <label text="TOP1"/>
+      <bbox x="156.17582952629843" y="-57.0481844299341" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_225d0f0a-0874-4762-ae8f-67d9465b6969" class="neighbor">
+      <label text="TDP1"/>
+      <bbox x="156.07992518303138" y="-95.00965201415302" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_1a9e79d4-6d31-4210-a182-7c138b1f462e" class="neighbor">
+      <label text="CHD1L"/>
+      <bbox x="93.10241013228" y="-414.43017825926813" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_02e76396-529e-4e48-973f-c53921ec42da" class="neighbor">
+      <label text="DDB1"/>
+      <bbox x="170.0052412411716" y="-430.1272166243618" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_2e69c248-24aa-401a-9ac4-0b9cf85d689a" class="neighbor">
+      <label text="DDB2"/>
+      <bbox x="168.10311734046203" y="-394.2702857695287" w="71.11121569114185" h="35"/>
+    </glyph>
+    <glyph id="nwtN_1c05968b-200d-4fbd-8963-1016cfbd73c9" class="neighbor">
+      <label text="XPC"/>
+      <bbox x="92.04415765861546" y="-451.34134395216535" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_2b6403ec-a3b0-409e-8605-ada572d926e7" class="neighbor">
+      <label text="RAD23B"/>
+      <bbox x="94.6359032252499" y="-379.76039978238657" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_f9435521-ee1b-4a08-a6fd-7afef66aed2b" class="neighbor">
+      <label text="ERCC1"/>
+      <bbox x="96.13369671543697" y="-336.9465623998759" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_74f41128-d1f7-4d9d-9013-d6d483e805b7" class="complex">
+      <bbox x="165.4449085325779" y="-437.90497320156277" w="77.78039227854633" h="87.78133349882306"/>
+    </glyph>
+    <glyph id="nwtN_b939e371-b03f-4e98-ab57-d8d497d61af2" class="neighbor">
+      <label text="ERCC5"/>
+      <bbox x="167.6938560425054" y="-337.10603011898525" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_fe7be4bb-fdae-4b69-8808-4fc5d73e6c9a" class="neighbor">
+      <label text="ERCC3"/>
+      <bbox x="21.478998407220814" y="-424.9049142140075" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_ac9a0d54-7177-42fc-af54-e4607aca1057" class="neighbor">
+      <label text="XPA"/>
+      <bbox x="23.03822762783222" y="-388.26855528405093" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_25865c32-b3ca-4740-b77a-bb1e603db7bb" class="complex">
+      <bbox x="14.925562206060192" y="-452.1981536785795" w="232.0716019549355" h="176.56196721257706"/>
+      <glyph id="nwtN_25865c32-b3ca-4740-b77a-bb1e603db7bb_0" class="unit of information">
+        <label text="GG-NER"/>
+        <bbox x="174.26212775045923" y="-458.1981536785795" w="48" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_abc8ab33-ddf2-4259-a6ee-0c0a8fac4bd4" class="complex">
+      <bbox x="151.81270695053544" y="-109.60241497400924" w="79.97520276087347" h="96.62809318358104"/>
+      <glyph id="nwtN_abc8ab33-ddf2-4259-a6ee-0c0a8fac4bd4_0" class="unit of information">
+        <label text="TOP1cc"/>
+        <bbox x="190.99311713162547" y="-115.60241497400924" w="48" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_fb325222-6df4-49b3-a5da-8a558a786ff6" class="complex">
+      <bbox x="5.197250256728125" y="-464.5457604329025" w="247.90504939205198" h="478.5054861340875"/>
+      <glyph id="nwtN_fb325222-6df4-49b3-a5da-8a558a786ff6_0" class="unit of information">
+        <label text="Excision Repair"/>
+        <bbox x="177.04223927644918" y="7.959725701185022" w="48" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_3da64a22-1e78-4abd-bb35-7b6da011776c" class="complex">
+      <bbox x="428.7765478572984" y="-139.0810519390526" w="86.56385662875438" h="89.67215766720162"/>
+      <glyph id="nwtN_3da64a22-1e78-4abd-bb35-7b6da011776c_0" class="unit of information">
+        <label text="DSB"/>
+        <bbox x="474.7743317985638" y="-145.0810519390526" w="24" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_28502285-e1fa-48ac-8072-f09a2e88db07" class="complex">
+      <bbox x="422.1309445209606" y="1.7449563300657474" w="153.47602989886678" h="101.16946533460448"/>
+      <glyph id="nwtN_28502285-e1fa-48ac-8072-f09a2e88db07_0" class="unit of information">
+        <label text="HR"/>
+        <bbox x="510.82084335724664" y="-4.255043669934253" w="16" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_e5d11467-aa83-42f1-9292-7d43c30bcd40" class="neighbor">
+      <label text="MRE11"/>
+      <bbox x="438.22006776274543" y="-128.19814448107113" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_d1729248-5375-4e36-b378-ff5697537c8d" class="neighbor">
+      <label text="BARD1"/>
+      <bbox x="428.1656778660071" y="50.13016313646628" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_bfc420cf-847f-4707-acef-85ed1b9d3dcb" class="neighbor">
+      <label text="UIMC1"/>
+      <bbox x="495.60092695854735" y="51.266215541184664" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_3dc97fcf-819c-4704-a06c-e7c9bda925aa" class="complex">
+      <bbox x="588.9549012462369" y="-16.088849620816738" w="79.56457997110476" h="89.79847303802569"/>
+      <glyph id="nwtN_3dc97fcf-819c-4704-a06c-e7c9bda925aa_0" class="unit of information">
+        <label text="Ku"/>
+        <bbox x="631.0805866280328" y="-22.088849620816738" w="16" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_747ca7fc-276e-480a-ad05-8d7e815b5d2a" class="neighbor">
+      <label text="CHD2"/>
+      <bbox x="670.4517981173693" y="15.960717177751178" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_a3525c9e-b635-4f12-ac31-ad4a4fdd3ed9" class="neighbor">
+      <label text="LIG4"/>
+      <bbox x="669.3467062946143" y="-18.297129327652655" w="70" h="32.78981635449008"/>
+    </glyph>
+    <glyph id="nwtN_9c7d9fa9-f4c6-4fae-b981-a8eef280dc7d" class="neighbor">
+      <label text="XRCC4"/>
+      <bbox x="741.1776747736868" y="15.960717177751192" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_2b13be35-0052-4030-8be2-69544bd101fc" class="neighbor">
+      <label text="LIG3"/>
+      <bbox x="699.184185508998" y="61.269481910704556" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_2bbb97a7-4251-430c-9162-133fe184b9c6" class="neighbor">
+      <label text="PRKDC"/>
+      <bbox x="740.072582950932" y="-17.192037504897677" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_2992003a-db15-4e2c-87aa-3accb226479c" class="complex">
+      <bbox x="406.54674514466" y="-151.25708850844907" w="409.1548423953623" h="273.22854819650223"/>
+      <glyph id="nwtN_2992003a-db15-4e2c-87aa-3accb226479c_0" class="unit of information">
+        <label text="DSBR"/>
+        <bbox x="681.0466832453673" y="-157.25708850844907" w="32" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_03d410b8-98a5-4c47-96d7-1b68e323bcc3" class="neighbor">
+      <label text="MRE11"/>
+      <bbox x="670.0938457694956" y="-65.43504970411018" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_f47214db-0f4d-4d3b-9295-c0b58b635657" class="neighbor">
+      <label text="NBN"/>
+      <bbox x="700.013409571533" y="-102.25776303133335" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_d2520212-0ffa-4f74-a749-20e14c69ba93" class="neighbor">
+      <label text="BRCA2"/>
+      <bbox x="534.5732545587729" y="-593.7906288637029" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_fd5fdd57-a6de-449c-bc69-d528fc541cfe" class="neighbor">
+      <label text="RECQ1"/>
+      <bbox x="533.3913065718166" y="-557.2457425485879" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_b8fae864-dcf9-4988-9716-51f1c6316149" class="neighbor">
+      <label text="MRE11"/>
+      <bbox x="604.1940393923355" y="-576.1091596996234" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_fd1c3b59-4ec5-4920-b5af-4cbaba673e77" class="complex">
+      <bbox x="605.7818312026538" y="-431.4759324729087" w="229.78582993303058" h="121.97749551049526"/>
+      <glyph id="nwtN_fd1c3b59-4ec5-4920-b5af-4cbaba673e77_0" class="unit of information">
+        <label text="Chromatin remodelling"/>
+        <bbox x="763.312636849748" y="-437.4759324729087" w="48" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_22955ae0-c5c4-4c2e-8d26-363b8fe0991e" class="neighbor">
+      <label text="CHD2"/>
+      <bbox x="685.6406082667997" y="-370.25774173656157" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_4ad5c1be-6086-4c5c-bbe7-73749512ad83" class="neighbor">
+      <label text="PRC1"/>
+      <bbox x="762.017092204754" y="-424.843909533346" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_b431410c-b51a-47cb-b94c-2065d1d1a995" class="neighbor">
+      <label text="SMARCA5"/>
+      <bbox x="615.2313771988257" y="-371.0655965546349" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_3cf05654-bd74-4ee9-a090-4030c9a50570" class="neighbor">
+      <label text="RNF168"/>
+      <bbox x="760.8557430527158" y="-353.21007641871233" w="70" h="35"/>
+    </glyph>
+    <arc id="nwtE_3475a55d-67d1-4cee-8679-6cb982db4bf9" class="production" source="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b" target="nwtN_fd1c3b59-4ec5-4920-b5af-4cbaba673e77">
+      <start x="427.9654126718293" y="-308.25576886855254"/>
+      <end x="602.2251499540102" y="-345.30422935661676"/>
+    </arc>
+    <arc id="nwtE_646c44d7-df3b-4f21-9566-9c566966615d" class="production" source="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b" target="nwtN_c5116b6c-88a8-48ad-b794-d7e78cd70e55">
+      <start x="407.1515877398871" y="-318.7082976750403"/>
+      <end x="565.8432589334674" y="-513.2075507649201"/>
+    </arc>
+    <arc id="nwtE_35b0258a-ec24-41e1-9511-6d860c69ab57" class="inhibition" source="nwtN_8d78a66a-5ce4-4160-9a98-1489735d76af" target="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b">
+      <glyph id="nwtE_35b0258a-ec24-41e1-9511-6d860c69ab57_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="390.7262074150112" y="-471.2631603072102"/>
+      <end x="392.27166381618014" y="-319.7082456862631"/>
+    </arc>
+    <arc id="nwtE_bc3b7821-86cc-4d22-b383-a51fdae66173" class="production" source="4c9d72ff-a83e-7070-3d8d-751d4b2b9880" target="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b">
+      <start x="446.1654698978869" y="-298.91549754626374"/>
+      <end x="431.0886725829989" y="-299.4188430837533"/>
+    </arc>
+    <arc id="nwtE_20d78419-129b-4416-87a8-38d657da7d09" class="production" source="4c9d72ff-a83e-7070-3d8d-751d4b2b9880" target="nwtN_b50454c2-d802-43e9-8039-bad38e811b9e">
+      <start x="467.7564054188841" y="-309.58410030291117"/>
+      <end x="504.4813610706468" y="-312.3148300573575"/>
+    </arc>
+    <arc id="nwtE_5542483d-9855-4dbc-9abb-47c638d78ceb" class="production" source="nwtN_b50454c2-d802-43e9-8039-bad38e811b9e" target="4c9d72ff-a83e-7070-3d8d-751d4b2b9880">
+      <start x="505.5546492186481" y="-285.8194043983492"/>
+      <end x="469.0884970900129" y="-284.46487268834653"/>
+    </arc>
+    <arc id="nwtE_22ed2cd2-a4bb-42b1-9212-04e702d1b291" class="production" source="e02a9166-d26f-3f05-8a05-fd3120fd397c" target="b9c9c1ac-4d55-e6ab-c021-5b2e95db5442">
+      <start x="524.9887950054925" y="-279.6758912766625"/>
+      <end x="525.022801165599" y="-317.0991557063141"/>
+    </arc>
+    <arc id="nwtE_a2825ae1-69b5-4bf5-9e98-9511f1167cb2" class="production" source="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b" target="nwtN_205cc34f-30b5-40ee-9d13-539ac402a9e7">
+      <start x="360.8483525896314" y="-284.07157880728477"/>
+      <end x="236.82532507558025" y="-218.8113605417368"/>
+    </arc>
+    <arc id="nwtE_e2ee1c12-8c18-4f72-9715-d770d659c814" class="production" source="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b" target="nwtN_74f41128-d1f7-4d9d-9013-d6d483e805b7">
+      <start x="361.9654126718293" y="-321.3561653144474"/>
+      <next x="255.65252731062802" y="-393.32778450466225"/>
+      <end x="246.85002120871084" y="-393.44554399688013"/>
+    </arc>
+    <arc id="nwtE_f44c9a5e-1b04-4552-89e1-8b351640cadd" class="production" source="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b" target="nwtN_abc8ab33-ddf2-4259-a6ee-0c0a8fac4bd4">
+      <start x="377.3790667322738" y="-282.7082976750403"/>
+      <end x="228.92125690327873" y="-105.57855481825933"/>
+    </arc>
+    <arc id="nwtE_c5d85106-d106-4d70-bb1a-d65f9500be03" class="production" source="nwtN_3da64a22-1e78-4abd-bb35-7b6da011776c" target="nwtN_28502285-e1fa-48ac-8072-f09a2e88db07">
+      <start x="480.3510566692857" y="-48.908894271850976"/>
+      <end x="488.96259670546834" y="-1.8290428225218136"/>
+    </arc>
+    <arc id="nwtE_ef07b7d2-5c01-44d3-868d-8e868cfd3e6a" class="production" source="nwtN_3da64a22-1e78-4abd-bb35-7b6da011776c" target="nwtN_ea1f6329-c665-47ae-ae06-be0507b1d6a3">
+      <start x="515.8404044860528" y="-77.71143693906498"/>
+      <end x="582.1138391108838" y="-52.684347671265535"/>
+    </arc>
+    <arc id="nwtE_de0d3ec9-2cec-4609-8fe6-3f9bb9e864ed" class="production" source="nwtN_62598383-a3f4-4ca8-a87d-97c5d31a737b" target="nwtN_2992003a-db15-4e2c-87aa-3accb226479c">
+      <start x="406.224002212761" y="-282.7082976750403"/>
+      <end x="504.42091616632564" y="-154.2398637628473"/>
+    </arc>
+  </map>
+</sbgn>
