@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<sbgn>
+  <map id="everolimus.sbgnml" language="unknown">
+    <!--<extension>-->
+      <!--<renderInformation -->
+        <!--xmlns="http://www.sbml.org/sbml/level3/version1/render/version1" id="renderInformation" programName="sbgnviz" programVersion="4.2.0" backgroundColor="#000000">-->
+        <!--<listOfColorDefinitions>-->
+          <!--<colorDefinition id="color_1" value="#ffffffff"/>-->
+          <!--<colorDefinition id="color_2" value="#555555"/>-->
+          <!--<colorDefinition id="color_3" value="#ffffff0"/>-->
+        <!--</listOfColorDefinitions>-->
+        <!--<listOfBackgroundImages/>-->
+        <!--<listOfStyles>-->
+          <!--<style id="nodeffffff15551.2511normalnormalHelvetica" idList="nwtN_5bac8e76-0e1c-4539-abbb-cf1b5030e5f4 nwtN_33b7f912-3b45-4755-88a2-33d84fef8869 nwtN_20d27587-eff9-4728-9f73-8f3408fde3a0 nwtN_79402f31-28be-4f58-8e90-9839ae15f209 nwtN_b8f9844a-976d-4c36-9f27-9e8226f3568b nwtN_e4ffe190-cfcb-44d6-83ef-6765dd58d9c5 nwtN_84b8f8cb-4bb8-476f-882e-7be7cf4d3a92 nwtN_2a4bb238-7c96-4b07-a2d9-d22da7e9229a nwtN_5945e719-84a3-4bb5-a46e-3611f18f95b2 nwtN_e71f04d4-3aac-4bc9-a2e1-50ddba3bb09c nwtN_500e2fc8-6b99-4c55-8309-b1b7445a72c0 nwtN_85345d69-6342-412d-901b-87f42defc9c3 nwtN_16279f7b-3f3d-43b2-a836-92c1b5bdaf65 nwtN_3f06e0af-d180-4a6f-b21d-9f102e7e2115 nwtN_ee6236b4-43aa-4494-aab1-9001b1e4b358 nwtN_80697fd1-7aed-45f3-9aa8-5233e9a5d911 nwtN_ae5f6ff2-8fe3-498c-b2b3-9bb809a4916b nwtN_5fa2dabe-da7e-4af7-a597-3ec199db4c4e nwtN_84b9bc23-0ed0-4fff-b942-dd87dd5831f3 nwtN_35b4d482-ac01-4ac2-af87-feaf91f9e714 nwtN_1e5d8f66-de07-421b-b0ff-9220a51c414c nwtN_9e7a73f2-48ca-49c4-b01f-14239959f149 nwtN_02ddedab-11e3-47a0-8059-84e1bf07915a nwtN_a7265991-e80e-4211-a9ed-e3dce191721d nwtN_d1b9f5b8-02f8-48e3-b6b1-d4252576495f nwtN_ca695171-a823-40cc-9bc1-97b3154e9856 nwtN_bfbba6c5-fef1-4a84-91fe-c9042bede463 nwtN_96077fe5-bc95-428b-a777-a528ad83cfcb">-->
+            <!--<g fontSize="11" fontFamily="Helvetica" fontWeight="normal" fontStyle="normal" stroke="color_2" strokeWidth="1.25" fill="color_1"/>-->
+          <!--</style>-->
+          <!--<style id="nodeffffff05551.2511normalnormalHelvetica" idList="nwtN_5d9c9bf9-b8c3-4877-b105-3f847689abd6 nwtN_39fbee6d-eef7-465e-86c1-7e20c598c59f">-->
+            <!--<g fontSize="11" fontFamily="Helvetica" fontWeight="normal" fontStyle="normal" stroke="color_2" strokeWidth="1.25" fill="color_3"/>-->
+          <!--</style>-->
+          <!--<style id="edge5551.25" idList="nwtE_8810cdb4-2e6d-44f9-ad1d-ac105061e552 nwtE_3f2eeb79-5185-48c9-88f7-8ee2a655e49d nwtE_704448f2-c1e0-4e5a-a31c-5fc575006e0c nwtE_c153f053-72dd-4b29-9ace-c5276a6a38d4 nwtE_53f2568b-305e-4fbc-bd65-e804c844eba6 nwtE_4710089a-6ac2-48f5-878f-8ef8a76fdaf1 nwtE_cdb391d1-da1e-4fc1-a4db-6cd346c88f9d nwtE_e4f323ea-2660-4bf0-87da-ac409b0a56cd">-->
+            <!--<g stroke="color_2" strokeWidth="1.25"/>-->
+          <!--</style>-->
+        <!--</listOfStyles>-->
+      <!--</renderInformation>-->
+      <!--<mapProperties>-->
+        <!--<compoundPadding>10</compoundPadding>-->
+        <!--<extraCompartmentPadding>14</extraCompartmentPadding>-->
+        <!--<extraComplexPadding>10</extraComplexPadding>-->
+        <!--<arrowScale>1.25</arrowScale>-->
+        <!--<showComplexName>true</showComplexName>-->
+        <!--<dynamicLabelSize>regular</dynamicLabelSize>-->
+        <!--<inferNestingOnLoad>false</inferNestingOnLoad>-->
+        <!--<fitLabelsToNodes>false</fitLabelsToNodes>-->
+        <!--<fitLabelsToInfoboxes>false</fitLabelsToInfoboxes>-->
+        <!--<recalculateLayoutOnComplexityManagement>true</recalculateLayoutOnComplexityManagement>-->
+        <!--<rearrangeOnComplexityManagement>true</rearrangeOnComplexityManagement>-->
+        <!--<animateOnDrawingChanges>true</animateOnDrawingChanges>-->
+        <!--<adjustNodeLabelFontSizeAutomatically>false</adjustNodeLabelFontSizeAutomatically>-->
+        <!--<enablePorts>true</enablePorts>-->
+        <!--<allowCompoundNodeResize>false</allowCompoundNodeResize>-->
+        <!--<mapColorScheme>black_white</mapColorScheme>-->
+        <!--<defaultInfoboxHeight>12</defaultInfoboxHeight>-->
+        <!--<defaultInfoboxWidth>8</defaultInfoboxWidth>-->
+        <!--<mapName>Pathway #sbgn-network-container-0</mapName>-->
+        <!--<mapDescription/>-->
+      <!--</mapProperties>-->
+    <!--</extension>-->
+    <glyph id="nwtN_5bac8e76-0e1c-4539-abbb-cf1b5030e5f4" class="drug">
+      <label text="Everolimus"/>
+      <bbox x="808.823259732417" y="236.5197934509161" w="130" h="44"/>
+    </glyph>
+    <glyph id="nwtN_33b7f912-3b45-4755-88a2-33d84fef8869" class="target">
+      <label text="mTOR"/>
+      <bbox x="724.4602680309714" y="335.02149112496363" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_20d27587-eff9-4728-9f73-8f3408fde3a0" class="neighbor">
+      <label text="AKT"/>
+      <bbox x="416.86604079478116" y="144.67312548183142" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_79402f31-28be-4f58-8e90-9839ae15f209" class="neighbor">
+      <label text="TSC1"/>
+      <bbox x="487.08697612653964" y="213.29020748439217" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_b8f9844a-976d-4c36-9f27-9e8226f3568b" class="neighbor">
+      <label text="TSC2"/>
+      <bbox x="415.09208097006467" y="213.58145789739055" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_e4ffe190-cfcb-44d6-83ef-6765dd58d9c5" class="neighbor">
+      <label text="FK506"/>
+      <bbox x="835.5860757126914" y="154.84080361820193" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_84b8f8cb-4bb8-476f-882e-7be7cf4d3a92" class="target">
+      <label text="mTOR"/>
+      <bbox x="371.02198768116165" y="379.4466006844414" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_2a4bb238-7c96-4b07-a2d9-d22da7e9229a" class="neighbor">
+      <label text="Sin1"/>
+      <bbox x="371.02198768116165" y="418.973547807045" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_5945e719-84a3-4bb5-a46e-3611f18f95b2" class="neighbor">
+      <label text="PRR5"/>
+      <bbox x="445.42565285312145" y="380.6091579527533" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_e71f04d4-3aac-4bc9-a2e1-50ddba3bb09c" class="neighbor">
+      <label text="Rictor"/>
+      <bbox x="444.26309558480955" y="420.1361050753569" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_500e2fc8-6b99-4c55-8309-b1b7445a72c0" class="neighbor">
+      <label text="GßL"/>
+      <bbox x="372.18454494947355" y="457.33793766133675" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_85345d69-6342-412d-901b-87f42defc9c3" class="neighbor">
+      <label text="DEPTOR"/>
+      <bbox x="444.26309558480955" y="458.5004949296486" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_5d9c9bf9-b8c3-4877-b105-3f847689abd6" class="complex">
+      <bbox x="364.4269292560568" y="371.8150771115536" w="158.11782595300383" h="129.05389424520715"/>
+      <glyph id="nwtN_5d9c9bf9-b8c3-4877-b105-3f847689abd6_0" class="unit of information">
+        <label text="mTORC2"/>
+        <bbox x="466.7235427360186" y="365.8150771115536" w="48" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_16279f7b-3f3d-43b2-a836-92c1b5bdaf65" class="neighbor">
+      <label text="GßL"/>
+      <bbox x="797.6805051516179" y="335.26942448859035" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_3f06e0af-d180-4a6f-b21d-9f102e7e2115" class="neighbor">
+      <label text="Raptor"/>
+      <bbox x="723.2768399796583" y="373.63381434288203" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_ee6236b4-43aa-4494-aab1-9001b1e4b358" class="neighbor">
+      <label text="DEPTOR"/>
+      <bbox x="796.5179478833062" y="373.633814342882" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_39fbee6d-eef7-465e-86c1-7e20c598c59f" class="complex">
+      <bbox x="716.4971601003157" y="328.0455663107916" w="158.11782595300383" h="86.03927531766789"/>
+      <glyph id="nwtN_39fbee6d-eef7-465e-86c1-7e20c598c59f_0" class="unit of information">
+        <label text="mTORC1"/>
+        <bbox x="818.7937735802775" y="322.0455663107916" w="48" h="12"/>
+      </glyph>
+    </glyph>
+    <glyph id="nwtN_80697fd1-7aed-45f3-9aa8-5233e9a5d911" class="neighbor">
+      <label text="Rheb"/>
+      <bbox x="417.1702427196847" y="280.10668324332306" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_ae5f6ff2-8fe3-498c-b2b3-9bb809a4916b" class="neighbor">
+      <label text="RAS"/>
+      <bbox x="700.4552663472662" y="34.22046155429952" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_5fa2dabe-da7e-4af7-a597-3ec199db4c4e" class="neighbor">
+      <label text="TBC1D7"/>
+      <bbox x="343.0129056582965" y="214.29882405163912" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_84b9bc23-0ed0-4fff-b942-dd87dd5831f3" class="neighbor">
+      <label text="PDK1"/>
+      <bbox x="415.93957159074375" y="69.76830478999419" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_35b4d482-ac01-4ac2-af87-feaf91f9e714" class="neighbor">
+      <label text="PTEN"/>
+      <bbox x="487.7481125920241" y="70.749971273106" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_1e5d8f66-de07-421b-b0ff-9220a51c414c" class="neighbor">
+      <label text="PI3K"/>
+      <bbox x="416.56686328035505" y="3.1277844270201527" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_9e7a73f2-48ca-49c4-b01f-14239959f149" class="neighbor">
+      <label text="Erk"/>
+      <bbox x="698.9191522166433" y="75.49538789388396" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_02ddedab-11e3-47a0-8059-84e1bf07915a" class="neighbor">
+      <label text="RSK"/>
+      <bbox x="700.1055063718378" y="114.6450750153021" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_a7265991-e80e-4211-a9ed-e3dce191721d" class="neighbor">
+      <label text="GSK-3"/>
+      <bbox x="700.1055063718378" y="154.9811162919147" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_d1b9f5b8-02f8-48e3-b6b1-d4252576495f" class="neighbor">
+      <label text="IRS-1"/>
+      <bbox x="416.4986340563274" y="-65.6807565742602" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_ca695171-a823-40cc-9bc1-97b3154e9856" class="neighbor">
+      <label text="4E-BP1"/>
+      <bbox x="714.3177063642411" y="461.39172063159117" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_bfbba6c5-fef1-4a84-91fe-c9042bede463" class="neighbor">
+      <label text="eIF4E"/>
+      <bbox x="786.8318689365706" y="462.57150868013775" w="70" h="35"/>
+    </glyph>
+    <glyph id="nwtN_96077fe5-bc95-428b-a777-a528ad83cfcb" class="neighbor">
+      <label text="eIF4G"/>
+      <bbox x="860.5214428245589" y="463.7600501944601" w="70" h="35"/>
+    </glyph>
+    <arc id="nwtE_8810cdb4-2e6d-44f9-ad1d-ac105061e552" class="production" source="nwtN_5bac8e76-0e1c-4539-abbb-cf1b5030e5f4" target="nwtN_33b7f912-3b45-4755-88a2-33d84fef8869">
+      <glyph id="nwtE_8810cdb4-2e6d-44f9-ad1d-ac105061e552_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="846.4496337559476" y="281.0197934509161"/>
+      <end x="783.7733100861857" y="332.53716582174786"/>
+    </arc>
+    <arc id="nwtE_3f2eeb79-5185-48c9-88f7-8ee2a655e49d" class="production" source="nwtN_b8f9844a-976d-4c36-9f27-9e8226f3568b" target="nwtN_80697fd1-7aed-45f3-9aa8-5233e9a5d911">
+      <glyph id="nwtE_3f2eeb79-5185-48c9-88f7-8ee2a655e49d_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="450.65437762217886" y="249.08145789739055"/>
+      <end x="451.5103727182102" y="276.48320690413067"/>
+    </arc>
+    <arc id="nwtE_704448f2-c1e0-4e5a-a31c-5fc575006e0c" class="production" source="nwtN_80697fd1-7aed-45f3-9aa8-5233e9a5d911" target="nwtN_39fbee6d-eef7-465e-86c1-7e20c598c59f">
+      <glyph id="nwtE_704448f2-c1e0-4e5a-a31c-5fc575006e0c_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="487.6702427196847" y="305.20099044892777"/>
+      <end x="712.9413013692456" y="353.3919094324931"/>
+    </arc>
+    <arc id="nwtE_c153f053-72dd-4b29-9ace-c5276a6a38d4" class="inhibition" source="nwtN_20d27587-eff9-4728-9f73-8f3408fde3a0" target="nwtN_b8f9844a-976d-4c36-9f27-9e8226f3568b">
+      <start x="451.4026530486907" y="180.17312548183142"/>
+      <end x="450.58120395333617" y="212.08178910345566"/>
+    </arc>
+    <arc id="nwtE_53f2568b-305e-4fbc-bd65-e804c844eba6" class="production" source="nwtN_84b9bc23-0ed0-4fff-b942-dd87dd5831f3" target="nwtN_20d27587-eff9-4728-9f73-8f3408fde3a0">
+      <glyph id="nwtE_53f2568b-305e-4fbc-bd65-e804c844eba6_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="451.16220673650133" y="105.26830478999419"/>
+      <end x="451.60475667019654" y="141.0483644899417"/>
+    </arc>
+    <arc id="nwtE_4710089a-6ac2-48f5-878f-8ef8a76fdaf1" class="production" source="nwtN_1e5d8f66-de07-421b-b0ff-9220a51c414c" target="nwtN_84b9bc23-0ed0-4fff-b942-dd87dd5831f3">
+      <glyph id="nwtE_4710089a-6ac2-48f5-878f-8ef8a76fdaf1_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="451.39742807259404" y="38.62778442702015"/>
+      <end x="451.13842133006483" y="66.14344322740729"/>
+    </arc>
+    <arc id="nwtE_cdb391d1-da1e-4fc1-a4db-6cd346c88f9d" class="production" source="nwtN_d1b9f5b8-02f8-48e3-b6b1-d4252576495f" target="nwtN_1e5d8f66-de07-421b-b0ff-9220a51c414c">
+      <glyph id="nwtE_cdb391d1-da1e-4fc1-a4db-6cd346c88f9d_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="451.5164825096535" y="-30.1807565742602"/>
+      <end x="451.54591613873873" y="-0.4972140366804112"/>
+    </arc>
+    <arc id="nwtE_e4f323ea-2660-4bf0-87da-ac409b0a56cd" class="production" source="nwtN_5d9c9bf9-b8c3-4877-b105-3f847689abd6" target="nwtN_20d27587-eff9-4728-9f73-8f3408fde3a0">
+      <glyph id="nwtE_e4f323ea-2660-4bf0-87da-ac409b0a56cd_card" class="cardinality">
+        <label text="0"/>
+        <bbox x="0" y="0" w="0" h="0"/>
+      </glyph>
+      <start x="363.9269292560568" y="436.88682846242085"/>
+      <next x="243.10827379867789" y="437.7141715203351"/>
+      <next x="244.39834700588094" y="161.63850517885186"/>
+      <end x="413.24105117025164" y="162.0735933412917"/>
+    </arc>
+  </map>
+</sbgn>
